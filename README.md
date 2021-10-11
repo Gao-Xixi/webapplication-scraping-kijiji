@@ -1,2 +1,2 @@
-# webscraping-kijiji
-python, html, mysql, flask
+# webScraping-from-Kijiji
+Using Python, mysql, flask

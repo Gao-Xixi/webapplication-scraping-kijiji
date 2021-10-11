@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div class="container min-vh-100" >
+    <form action="/scrape" method="get">
+        <div class="form-group">
+            <label for="formGroupExampleInput">Item name: </label>
+            <input autocomplete="off" autofocus name="item_name" type="text" class="form-control" id="formGroupExampleInput" placeholder="Item name">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Page number </label>
+            <input autocomplete="off" name="page_num" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Page num">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary mb-2">Search</button>
+    </form>
+    <br><br>
+    <div>
+        <img id="wait" src="https://www.vippng.com/png/detail/19-196215_loading-please-wait-png.png"  width="400 px" style="display: block;">
+        <p class="text-secondary">It may takes several seconds ...</p>
+
+    </div>
+</div>
+{% endblock %}

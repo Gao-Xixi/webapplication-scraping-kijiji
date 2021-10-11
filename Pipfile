@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "==4.10.0"
+bs4 = "==0.0.1"
+certifi = "==2021.10.8"
+charset-normalizer = "==2.0.6"
+click = "==8.0.3"
+gunicorn = "==19.9.0"
+idna = "==3.2"
+itsdangerous = "==2.0.1"
+lxml = "==4.6.3"
+requests = "==2.26.0"
+soupsieve = "==2.2.1"
+urllib3 = "==1.26.7"
+Flask = "==2.0.2"
+Jinja2 = "==3.0.2"
+MarkupSafe = "==2.0.1"
+PyMySQL = "==1.0.2"
+Werkzeug = "==2.0.2"
+flask-mysql = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
