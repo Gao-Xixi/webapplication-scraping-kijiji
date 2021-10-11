@@ -1,4 +1,4 @@
-# webscraping-from-Kijiji
+# webscraping-kijiji
 Python, mysql, flask, html
 ### check my website [scrape from kijiji](https://scrape-kijiji.herokuapp.com/).
 
